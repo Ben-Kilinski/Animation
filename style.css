@@ -1,0 +1,14 @@
+@keyframes menuDVD {
+    from{ transform:translate(0vw,0vh)}
+    to{transform: translate(50vw,50vh);}
+}
+
+
+
+#dvd {
+    height: 30vh;
+    width: 45vw;
+    color: blue;
+    animation-name:menuDVD;
+    animation-duration: 5s;
+}
