@@ -12,3 +12,17 @@
     animation-name:menuDVD;
     animation-duration: 5s;
 }
+
+
+@keyframes colorChange {
+    from{background-color: black;}
+    to{background-color: aqua;}
+}
+
+#colorChange {
+    height: 200px;
+    width: 300px;
+    animation-name: colorChange;
+    animation-duration: 5s;
+
+}
