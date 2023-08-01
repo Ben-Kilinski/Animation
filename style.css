@@ -1,23 +1,29 @@
 body{
-    background-color: black;
+    background-image: url(./paisagem-natural-og.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
-#DvD{
-    font-size: 300%;
-    font-weight: bold;
-    color: blue;
-    animation-name: moveDvD;
-    animation-duration: 5s;
+
+
+#walkingirl {
+    height: 30vh;
+    width: auto;
+}
+
+#walkingirl{
+
+    animation-name: walking;
+    animation-duration: 11s;
     animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
      
 }
 
-@keyframes moveDvD{
-    0%{transform: translate(0vw,40vh); color: blue;}
-    20%{transform: translate(43vw,88vh); color: white;}
-    40%{transform: translate(90vw,40vh); color: yellowgreen;}
-    60%{transform: translate(43vw,0vh); color: tomato;}
-    80%{transform: translate(0vw,40vh); color: purple;}
-    100%{transform: translate(50vw,88vh); color: blue;}
+@keyframes walking{
+    0%{transform: translate(-10vw,68vh);}
+    100%{transform: translate(110vw,68vh);}
 }
 
