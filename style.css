@@ -15,8 +15,11 @@
 
 
 @keyframes colorChange {
-    from{background-color: black;}
-    to{background-color: aqua;}
+        0%{background-color: green;}
+        25%{background-color: yellow;}
+        50%{background-color: pink;}
+        75%{background-color: red;}
+        100%{background-color: black;}
 }
 
 #colorChange {
