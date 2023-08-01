@@ -9,23 +9,9 @@ body{
 
 
 #fight{
-    height: 30vh;
+    height: 96vh;
     width: auto;
-  
+    margin-left: 100px; 
 }
 
-#naruto{
-
-    animation-name: treta;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-out;
-     
-}
-
-@keyframes treta{
-    0%{transform:translate(0vw,0vh);}
-    100%{transform:translate(500vw,0vh);}
-   
-}
 
