@@ -1,34 +1,21 @@
-@keyframes menuDVD {
-    0%{ transform:translate(99vw,1vh)}
-    50%{transform:translate(50vw,50vh)}
-    75%{transform:translate(50vw,95vh)}
-    100%{transform:translate(1vw,96vh)}
+body{
+    background-color: black;
 }
-
-
-
-#dvd {
-    height: 30vh;
-    width: 45vw;
-    color: blue;
-    animation-name:menuDVD;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-}
-
 
 @keyframes colorChange {
-        0%{height: 100px; width: 100px; transform:translate(0vh,0vw)}
-        60%{height: 400px; width: 400px; transform: translate(0vh,0vw);}
-        100%{height:400px; width:400px; transform:translate(90vh,90vw)}
+    0%{color: aqua; font-size: 0%;}
+    100%{color: aqua; text-shadow: 10px 10px 40px aqua;}
+     
 }
 
 #colorChange {
-    border-radius: 50%;
+    margin-top: 200px;
+    font-size: 300%;
+    text-align: center;
     animation-iteration-count: infinite;
-    background-color: aqua;
     animation-name: colorChange;
-    animation-duration: 5s;
-    animation
+    animation-duration: 4s;
+    text-decoration-style: solid;
+    font-weight: bold;
 
 }
