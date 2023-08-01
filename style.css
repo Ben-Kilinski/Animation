@@ -2,20 +2,34 @@ body{
     background-color: black;
 }
 
-@keyframes colorChange {
-    0%{color: aqua; font-size: 0%;}
-    100%{color: aqua; text-shadow: 10px 10px 40px aqua;}
+#squareOut{
+    width: 200px;
+    height: 200px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+
+}
+
+#squareIn{
+    width: 100px;
+    height: 100px;
+    background-color: aqua; 
+    animation-name: movesquareOut;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
      
 }
 
-#colorChange {
-    margin-top: 200px;
-    font-size: 300%;
-    text-align: center;
-    animation-iteration-count: infinite;
-    animation-name: colorChange;
-    animation-duration: 4s;
-    text-decoration-style: solid;
-    font-weight: bold;
-
+@keyframes movesquareOut{
+    0%{transform: translate(0px, 0px);}
+    16.6%{transform:translate(-50px, 0px);}
+    33.2%{transform:translate(50px, 0px);}
+    49.8%{transform:translate(0px, -50px);}
+    66.4%{transform:translate(0px, 50px);}
+    83%{transform:translate(-50px, 0px);}
+    100%{transform:translate(0px, -50px);}
 }
